@@ -1,0 +1,37 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "border": {
+            "bsonType": "object",
+            "properties": {
+                "coordinates": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "array"
+                        }
+                    }
+                },
+                "type": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "district": {
+            "bsonType": "string"
+        },
+        "province": {
+            "bsonType": "string"
+        },
+        "sub_district": {
+            "bsonType": "string"
+        },
+        "village": {
+            "bsonType": "string"
+        }
+    },
+    "title": "village"
+}
